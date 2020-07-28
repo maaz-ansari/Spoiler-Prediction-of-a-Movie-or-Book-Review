@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import re
 import nltk
-nltk.download('stopwords') 
+nltk.download('all')
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 model=pickle.load(open('goodreads.pkl','rb'))
